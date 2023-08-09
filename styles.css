@@ -1,32 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  #game-container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  #output {
-    background-color: #f5f5f5;
-    padding: 10px;
-    margin-bottom: 10px;
-    min-height: 200px;
-  }
-  
-  #input {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 10px 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  background-color: #e0e0e0;
+  margin: 10px 0;
+}
+
+#travel-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hint-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 10px;
+}

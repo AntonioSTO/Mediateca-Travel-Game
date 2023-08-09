@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jogo da Carmen Sandiego</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Onde Está o Ladrão?</title>
 </head>
 <body>
   <div id="game-container">
-    <h1>Jogo da Carmen Sandiego</h1>
-    <div id="output"></div>
-    <input type="text" id="input" placeholder="Digite um comando">
-    <button onclick="play()">Enviar</button>
-  </div>
+    <h1>Onde Está o Ladrão?</h1>
+    <p>Encontre o ladrão viajando pelo Espírito Santo!</p>
+    <p id="hint"></p>
+    <div id="map"></div>
+    <button id="hint-button">Dica</button>
+    <button id="travel-button">Viajar</button>
+    <p id="result"></p>
 
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
